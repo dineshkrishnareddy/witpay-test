@@ -1,0 +1,64 @@
+<!doctype html>
+<html ng-app="myapp">
+    <head>
+        <title>Chat App</title>
+
+        <!----CSS----->
+        <!---angular material-->
+        <link rel="stylesheet" href="client/vendors/angular-material/angular-material.min.css">
+
+        <!--- Custom css--->
+        <link rel="stylesheet" href="client/css/style.css">
+
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="client/vendors/bootstrap/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="client/vendors/fonts/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="client/vendors/icons/ionicons.min.css">
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="client/vendors/AdminLTE/AdminLTE.min.css">
+
+    </head>
+    <body>
+        
+        <div ui-view="body"></div>
+        
+    </body>
+
+    <!---JS--->
+    <!-- jQuery 2.2.3 -->
+    <script src="client/vendors/jquery/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap 3.3.6 -->
+    <script src="client/vendors/bootstrap/bootstrap.min.js"></script>
+
+    <!-- FastClick -->
+    <script src="client/vendors/fastclick/fastclick.min.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="client/vendors/AdminLTE/AdminLTE.min.js"></script>
+
+    <!---socket--->
+    <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+
+    <!---angular--->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-messages.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-aria.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
+
+    <!---manual--->
+    <script src="client/js/app.js"></script>
+    <script src="client/js/directive/enter.directive.js"></script>
+    <script src="client/js/factory/socket.factory.js"></script>
+    <script src="client/js/service/encrypt.service.js"></script>
+    <script src="client/js/controller/app.controller.js"></script>
+    <script src="client/js/controller/register.controller.js"></script>
+
+
+</html>
