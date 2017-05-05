@@ -237,7 +237,7 @@ angular
         }
         var body = document.getElementsByTagName("body")[0];
         body.appendChild(div);
-        if (localStorage.getItem(chat_friend) !== null) {
+        if (localStorage.getItem(chat_friend) && localStorage.getItem(chat_friend) !== null) {
             $scope.messages[chat_friend] = JSON.parse(localStorage.getItem(chat_friend));
         }
         if ($scope.messages[chat_friend] != undefined) {
