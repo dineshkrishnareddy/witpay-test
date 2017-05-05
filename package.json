@@ -1,14 +1,10 @@
 {
   "name": "chat",
   "version": "1.0.0",
-  "description": "Chat application for local usage",
+  "description": "Chat application",
   "repository": {},
   "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "author": "Sudheesh Shetty",
-  "license": "MIT",
+  "author": "P. Dinesh Krishna Reddy",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
